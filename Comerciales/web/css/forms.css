@@ -1,0 +1,41 @@
+/* 
+    Document   : forms
+    Created on : 10-jul-2012, 9:26:05
+    Author     : programacion
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+input[type=text], input[type=password], select{
+    border: 2px solid #cccccc;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+input[type=text]:focus , input[type=password]:focus, select:focus {
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px rgba(250,138,10,0.5);
+    border: 2px solid #F28A10;
+    background-color: yellow;
+}
+
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+
+input[type=submit]{
+    padding: 5px;
+}
+
+.altaEmpresa{
+    width: 98%;
+    margin: 0 20px 20px 20px;    
+}
+.altaEmpresa td{
+    padding: 4px;
+}
+.altaEmpresa td input, .altaEmpresa td select{
+    width: 95%;
+}

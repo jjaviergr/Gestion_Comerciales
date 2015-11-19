@@ -1,0 +1,54 @@
+/* 
+    Document   : iconos
+    Created on : 11-jul-2012, 10:21:20
+    Author     : programacion
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.icono-32-aceptar{
+    background-image: url("../img/icono32/aceptar.png");
+}
+.icono-32-cancelar{
+    background-image: url("../img/icono32/cancelar.png");
+}
+.icono-32-empresas{
+    background-image: url("../img/icono32/empresa.png");
+}
+.icono-32-visitas{
+    background-image: url("../img/icono32/visitas.png");
+}
+.icono-32-perfil{
+    background-image: url("../img/icono32/perfil.png");
+}
+.icono-32-salir{
+    background-image: url("../img/icono32/salir.png");
+}
+.icono-32-add{
+    background-image: url("../img/icono32/nuevo.png");
+}
+.icono-32-buscar{
+    background-image: url("../img/icono32/buscar.png");
+}
+.icono-32-volver{
+    background-image: url("../img/icono32/volver.png");
+}
+/*
+*  ICONOS DE 48 pixeles
+*/
+.icono-48-login{
+    background-image: url("../img/icono48/login.png");
+}
+
+.icono-48-empresas{
+    background-image: url("../img/icono48/empresas.png");
+}
+.icono-48-visita{
+    background-image: url("../img/icono48/visita.png");
+}
+.icono-48-comercial{
+    background-image: url("../img/icono48/comercial.png");
+}
+.icono-48-menu{
+    background-image: url("../img/icono48/menu.png");
+}

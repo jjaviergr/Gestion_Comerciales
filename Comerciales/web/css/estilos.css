@@ -1,0 +1,130 @@
+/* 
+    Document   : estilos
+    Created on : 10-jul-2012, 9:26:18
+    Author     : programacion
+    Description:
+        Purpose of the stylesheet follows.
+*/
+*{
+    font-family: Bitstream Vera Sans, Verdana, Freesans, sans-serif;
+    font-size: 11px;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
+h4{
+    font-size: 1.3em;
+}
+h5{
+    font-size: 1.1em;
+    margin: 4px;
+    padding: 0px;
+}
+h6{
+    font-size: 0.7em;
+}
+
+.tablaLogin{
+    margin: 10px auto;
+    
+}
+table.tablaLogin td{
+    padding: 5px;
+}
+
+.error{
+    text-align: center;
+    margin: 10px;
+    color:red;
+    font-weight: bold;
+}
+.marcoError{
+    width: 80%;
+    background-color: #ffcccc;
+    color: red;
+    border-radius: 8px;
+    border: 1px solid red;
+    padding: 8px;
+    margin: 5px auto;    
+    font-weight: bolder;
+}
+
+.listado{
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 0 0 3px blue;
+    width: 95%;
+    margin: 10px auto;
+}
+.listado thead tr{
+    background-color: #cccccc;    
+    border-bottom: 1px solid blue;
+    border-radius: 5px;
+}
+.listado thead th{
+    padding: 10px;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+.listado tbody tr{
+    border-bottom: 1px solid blue;
+}
+.listado tbody tr:hover{
+    background-color: #e7fee1 ;    
+}
+.listado td{
+    padding: 8px;
+    font-size: 1.1em;
+}
+.listado a{
+    text-decoration: none;
+}
+.listado a img{
+    margin: 2px;
+}
+.listado tfoot{
+    margin:0;
+}
+.listado tfoot td{
+    margin: 0px;
+    padding:4px;
+}
+
+ul.paginar {
+    list-style: none;
+}
+ul.paginar li{
+    display: inline-block;
+    float: right;
+    border: 1px solid #bbb ;
+    margin: 0px;
+    background-color: lightgoldenrodyellow;
+}
+ul.paginar li a{
+    text-decoration: none;
+    display: block;
+    margin:0;
+    padding:5px;
+}
+ul.paginar li a:hover{
+    background-color: #e7fee1;
+    color: darkgreen;
+    font-weight: bold;
+}
+ul.fichaEmpresa{
+    list-style: none;
+    
+}
+ul.fichaEmpresa li strong{    
+    font-size: 1.2em;
+}
+ul.fichaEmpresa li{
+    margin: 10px 0;
+    font-size: 1.1em;
+}

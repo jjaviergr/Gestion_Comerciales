@@ -1,0 +1,129 @@
+/* 
+    Document   : posicionamiento
+    Created on : 10-jul-2012, 9:25:50
+    Author     : programacion
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#pagina{
+    width: 960px;
+    border: 0px solid #888888;
+    margin: 10px auto;
+    padding: 0px;
+    box-shadow: 0 0 8px #888888;    
+    min-height: 500px;
+    border-radius:8px;
+}
+#content{
+    min-height: 400px;
+    border: 0px dotted #eee;
+}
+
+#header{
+    min-height: 100px;
+    border: 0px dashed #ccc;
+    background-image: url(../img/logo.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    
+}
+
+#toolbar{
+    margin-top: 5px;
+    padding: 10px 15px;
+}
+.m_tootlbar{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #999;
+    min-height: 50px; 
+    padding: 5px;
+}
+.toolbar_titulo{
+    background-repeat: no-repeat;
+    padding-left: 60px;
+}
+#toolbar h2{
+    color: #000066;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;   
+}
+#toolbar_botones{
+    float:right;
+    margin-right: 10px;
+    padding: 0;    
+}
+#toolbar_botones ul{
+    margin:0;
+    padding: 0;
+}
+#toolbar_botones ul li{
+    list-style: none;   
+    height: 48px;
+    text-align: center;
+    padding: 1px 1px 3px 4px;
+    float:left;
+}
+#toolbar_botones ul li a{
+    text-decoration: none;
+    display: block;
+    float:left;
+    padding: 1px 5px;
+    color: #025a8d;
+    white-space: nowrap;
+    font-size: 1em;
+}
+#toolbar_botones ul li a:hover{
+    border-color: #eee #ccc #ccc #eee;
+    border-width: 1px;
+    border-style: solid;
+    color: #ff9900;
+}
+#toolbar_botones ul li a span{
+    display: block;
+    height: 32px;
+    margin: 0 auto;
+    width: 32px;
+}
+#pie{
+    border:0px dotted #bbb;
+    margin: 2px auto;
+    width: 960px;     
+}
+
+#pie_dch{
+    width: 48%;
+    float: right;
+    padding: 0px 8px;
+}
+#pie_izq{
+    width: 48%;
+    float:left;
+    padding: 0 8px;
+}
+
+#pie h6{
+    margin:0;
+    padding: 0;
+    color: #999;
+}
+#pie #pie_dch h6{
+    text-align: right;
+}
+
+.limpiar{
+    clear:both;
+}
+
+#nombre{
+    float:right;
+    width: 50%;
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
